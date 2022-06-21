@@ -2,6 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: "Courier New", Courier, monospace;
   padding: 10px;
+  color: blueviolet;
+  text-align: justify;
 }
 
 td {
@@ -17,19 +19,20 @@ table {
   height: 250px;
 }
 
-.main_container article {
+.lado-esquerdo {
   position: relative;
 }
 
-.main_container aside {
+.lado-direito {
   position: absolute;
   right: 10px;
-  top: 650px;
+  top: 685px;
   max-width: 200px;
 }
 
 .listas {
-  height: 210px;
+  height: 230px;
+  line-height: 1.2;
 }
 
 #cabecalho {
