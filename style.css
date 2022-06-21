@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   padding: 10px;
 }
 
@@ -11,6 +11,7 @@ td {
 table {
   margin-top: 20px;
 }
+
 .main_container {
   max-width: 440px;
   height: 250px;
@@ -27,7 +28,6 @@ table {
   max-width: 200px;
 }
 
-
 .listas {
   height: 210px;
 }
@@ -40,7 +40,7 @@ table {
   padding: 10px;
   border-radius: 1.5%;
   color: azure;
-  font-size:12px ;
+  font-size: 12px;
 }
 
 #minha_foto {
