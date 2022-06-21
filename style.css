@@ -6,10 +6,6 @@ body {
   text-align: justify;
 }
 
-td, th{
-  text-align: center;
-}
-
 table {
   margin-top: 300px;
 }
