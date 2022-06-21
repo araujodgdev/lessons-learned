@@ -8,3 +8,9 @@ body {
   border: 1px solid black;
   text-align: center;
 }
+
+#minha_foto {
+  max-width: 300px;
+  margin-top: 150px;
+  border: 1px solid black;
+}
