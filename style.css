@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 table, th {
@@ -8,6 +9,10 @@ table, th {
 
 td {
   text-align: center;
+}
+
+.listas {
+  height: 210px;
 }
 
 #cabecalho {
@@ -24,4 +29,20 @@ td {
   max-width: 300px;
   margin-top: 110px;
   border: 2px solid green;
+}
+
+#licoes_aprendidas {
+  float: left;
+  position: relative;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  left: 380px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
 }
