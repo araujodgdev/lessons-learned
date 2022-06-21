@@ -1,15 +1,32 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Courier New', Courier, monospace;
-}
-
-table, th {
-  border: 2px solid green;
+  padding: 10px;
 }
 
 td {
   text-align: center;
 }
+
+table {
+  margin-top: 20px;
+}
+.main_container {
+  max-width: 440px;
+  height: 250px;
+}
+
+.main_container article {
+  position: relative;
+}
+
+.main_container aside {
+  position: absolute;
+  right: 10px;
+  top: 650px;
+  max-width: 200px;
+}
+
 
 .listas {
   height: 210px;
@@ -21,8 +38,9 @@ td {
   text-align: center;
   background-color: green;
   padding: 10px;
-  border-radius: 1%;
+  border-radius: 1.5%;
   color: azure;
+  font-size:12px ;
 }
 
 #minha_foto {
